@@ -4,6 +4,7 @@ using namespace std;
 
 void mySwap(int &,int &); 
 
+
 int main(){
 	int x,y;
 	cin >> x >> y;
@@ -14,4 +15,10 @@ int main(){
 	cout << "x = " << x << ", y = " << y << "\n";
 	
 	return 0;
+}
+void mySwap(int &x,int &y){
+    int a ;
+    a = x ;
+    x = y ;
+    y = a ;
 }
